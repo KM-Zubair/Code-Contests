@@ -23,12 +23,12 @@ public class Solution {
         Matcher m = p.matcher(binary);
         
         int count = 0;
-        int i = 0;
+        
         
         for (int j = 0; j < binary.length(); j++) {
         if (m.find()) {
         	count++;
-        	i = m.start() + 1;
+        	
         	}
         
         }
